@@ -1,0 +1,95 @@
+body {
+    margin: 0 auto;
+    background: #1C1C1C;
+    padding-top: 50px;
+    min-width: 200px;
+    max-width: 400px;
+    padding-left: 20px;
+    
+}
+
+h1, h2{
+    color: white;
+    margin-bottom: 0px;
+}
+
+h2{
+    margin-top: 10px;
+    font-weight: 300;
+    font-size: 18px;
+}
+
+span{
+    color: #10B981;
+}
+
+.btn{
+    width: 180px;
+    margin-top: 50px;
+    margin-bottom: 25px;
+    color: white;
+    background:  #10B981;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 7px;
+    outline: none;
+}
+
+.btn:hover, .btn:focus{
+    background: #18946b;
+}
+
+.btn:active{
+    outline: none;
+}
+
+hr{
+    max-width: 370px;
+    border-color: #6B7280;
+}
+
+.PWplaceholder{
+    border: none;
+    border-radius: 7px;
+    margin-top: 25px;
+    background: #6B7280;
+    padding: 12px 12px 10px 12px;
+    text-align: center;
+    letter-spacing: 2px;
+}
+
+::placeholder{
+    opacity: 100%;
+}
+
+@media only screen and (max-width: 400px) {
+        .PWsection{
+            display: flex;
+            flex-direction: column;
+            margin-top: 0px;
+        }
+
+        .btn{
+            width: 200px;
+        }
+
+        .PWplaceholder{
+            max-width: 200px;
+        }
+        
+        #btncopy{
+            margin-top: 5px;
+        }
+       
+        ::placeholderbig{
+            display: none;
+        }
+
+        ::placeholdersmall{
+            display: block;
+        }
+
+        #btngen{
+            margin-bottom: 5px;
+        } 
+    }
